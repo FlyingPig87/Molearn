@@ -7,6 +7,8 @@
 //
 
 #import "MLAppDelegate.h"
+#import "MLTabViewController.h"
+#import <AVFoundation/AVFoundation.h>
 
 @implementation MLAppDelegate
 
@@ -18,9 +20,16 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    
+    [[UIApplication sharedApplication] beginReceivingRemoteControlEvents];
+    [application beginBackgroundTaskWithExpirationHandler:^{
+
+    }];
+    
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
-    // Override point for customization after application launch.
+    MLTabViewController *tab = [[[MLTabViewController alloc] init] autorelease];
     self.window.backgroundColor = [UIColor whiteColor];
+    self.window.rootViewController = tab;
     [self.window makeKeyAndVisible];
     return YES;
 }

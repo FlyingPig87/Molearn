@@ -7,6 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C92111A16FAFBE1005DD890 /* about@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C92111616FAFBE1005DD890 /* about@2x.png */; };
+		9C92111B16FAFBE1005DD890 /* favorites@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C92111716FAFBE1005DD890 /* favorites@2x.png */; };
+		9C92111C16FAFBE1005DD890 /* home@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C92111816FAFBE1005DD890 /* home@2x.png */; };
+		9C92111D16FAFBE1005DD890 /* search@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C92111916FAFBE1005DD890 /* search@2x.png */; };
+		9C92112016FC273D005DD890 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9C92111E16FC273D005DD890 /* Model.xcdatamodeld */; };
+		9C92112416FFEF8B005DD890 /* MLAudioPlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C92112316FFEF8B005DD890 /* MLAudioPlay.m */; };
+		9C92112616FFF395005DD890 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C92112516FFF395005DD890 /* MediaPlayer.framework */; };
+		9C92112816FFFCC7005DD890 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C92112716FFFCC6005DD890 /* AVFoundation.framework */; };
+		9C92112A170000AA005DD890 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9C921129170000AA005DD890 /* music.mp3 */; };
+		9C92112D17005201005DD890 /* MLAudioDownder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C92112C17005201005DD890 /* MLAudioDownder.m */; };
+		9CA8250C170179B7004C805C /* MLLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA8250B170179B7004C805C /* MLLoginViewController.m */; };
+		9CA8250F170179DE004C805C /* MLRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA8250E170179DE004C805C /* MLRegisterViewController.m */; };
+		9CA8251317018BB7004C805C /* MLHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA8251217018BB7004C805C /* MLHTTPClient.m */; };
+		9CA825161703E2F4004C805C /* MLShopListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA825151703E2F4004C805C /* MLShopListViewController.m */; };
+		9CA825191703E320004C805C /* MLShopDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA825181703E320004C805C /* MLShopDetailViewController.m */; };
+		9CA8251C1703E51A004C805C /* MLShopMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA8251B1703E51A004C805C /* MLShopMenuViewController.m */; };
+		9CA8251F1703E552004C805C /* MLShopOrderedMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA8251E1703E551004C805C /* MLShopOrderedMenuViewController.m */; };
+		9CA825221703EE14004C805C /* MLMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA825211703EE13004C805C /* MLMapViewController.m */; };
+		9CA8252C17042654004C805C /* MLLanguageSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA8252B17042653004C805C /* MLLanguageSelectViewController.m */; };
+		9CA8252F170426F9004C805C /* MLPersonalizedSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA8252E170426F8004C805C /* MLPersonalizedSettingViewController.m */; };
+		9CA8253217042B12004C805C /* MLSceneSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA8253117042B10004C805C /* MLSceneSelectViewController.m */; };
+		9CA8253517042DA2004C805C /* MLSentenceStudyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA8253417042DA0004C805C /* MLSentenceStudyViewController.m */; };
 		9CA944D116F8457F00D26C99 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CA944D016F8457F00D26C99 /* UIKit.framework */; };
 		9CA944D316F8457F00D26C99 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CA944D216F8457F00D26C99 /* Foundation.framework */; };
 		9CA944D516F8457F00D26C99 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CA944D416F8457F00D26C99 /* CoreGraphics.framework */; };
@@ -97,7 +119,6 @@
 		9CA945B716F8643500D26C99 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA945A916F8643500D26C99 /* MBProgressHUD.m */; };
 		9CA945BE16F866D500D26C99 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CA945BD16F866D500D26C99 /* CoreData.framework */; };
 		9CA945C116F86B5B00D26C99 /* MLSlpashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA945C016F86B5B00D26C99 /* MLSlpashViewController.m */; };
-		9CA945C416F86B9600D26C99 /* MLKeyWordsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA945C316F86B9600D26C99 /* MLKeyWordsViewController.m */; };
 		9CA945C716F86BE800D26C99 /* MLHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA945C616F86BE800D26C99 /* MLHomeViewController.m */; };
 		9CA945CA16F86BF200D26C99 /* MLSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA945C916F86BF200D26C99 /* MLSearchViewController.m */; };
 		9CA945CD16F86C0900D26C99 /* MLFavouritesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA945CC16F86C0900D26C99 /* MLFavouritesViewController.m */; };
@@ -106,6 +127,42 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9C92111616FAFBE1005DD890 /* about@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "about@2x.png"; sourceTree = "<group>"; };
+		9C92111716FAFBE1005DD890 /* favorites@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "favorites@2x.png"; sourceTree = "<group>"; };
+		9C92111816FAFBE1005DD890 /* home@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home@2x.png"; sourceTree = "<group>"; };
+		9C92111916FAFBE1005DD890 /* search@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "search@2x.png"; sourceTree = "<group>"; };
+		9C92111F16FC273D005DD890 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		9C92112216FFEF8B005DD890 /* MLAudioPlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MLAudioPlay.h; path = Audios/MLAudioPlay.h; sourceTree = "<group>"; };
+		9C92112316FFEF8B005DD890 /* MLAudioPlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MLAudioPlay.m; path = Audios/MLAudioPlay.m; sourceTree = "<group>"; };
+		9C92112516FFF395005DD890 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		9C92112716FFFCC6005DD890 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		9C921129170000AA005DD890 /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = music.mp3; path = Molearn/music.mp3; sourceTree = SOURCE_ROOT; };
+		9C92112B17005201005DD890 /* MLAudioDownder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MLAudioDownder.h; path = Audios/MLAudioDownder.h; sourceTree = "<group>"; };
+		9C92112C17005201005DD890 /* MLAudioDownder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MLAudioDownder.m; path = Audios/MLAudioDownder.m; sourceTree = "<group>"; };
+		9CA8250A170179B7004C805C /* MLLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLLoginViewController.h; sourceTree = "<group>"; };
+		9CA8250B170179B7004C805C /* MLLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLLoginViewController.m; sourceTree = "<group>"; };
+		9CA8250D170179DE004C805C /* MLRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLRegisterViewController.h; sourceTree = "<group>"; };
+		9CA8250E170179DE004C805C /* MLRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLRegisterViewController.m; sourceTree = "<group>"; };
+		9CA8251117018BB7004C805C /* MLHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLHTTPClient.h; sourceTree = "<group>"; };
+		9CA8251217018BB7004C805C /* MLHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLHTTPClient.m; sourceTree = "<group>"; };
+		9CA825141703E2F4004C805C /* MLShopListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLShopListViewController.h; sourceTree = "<group>"; };
+		9CA825151703E2F4004C805C /* MLShopListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLShopListViewController.m; sourceTree = "<group>"; };
+		9CA825171703E320004C805C /* MLShopDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLShopDetailViewController.h; sourceTree = "<group>"; };
+		9CA825181703E320004C805C /* MLShopDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLShopDetailViewController.m; sourceTree = "<group>"; };
+		9CA8251A1703E51A004C805C /* MLShopMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLShopMenuViewController.h; sourceTree = "<group>"; };
+		9CA8251B1703E51A004C805C /* MLShopMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLShopMenuViewController.m; sourceTree = "<group>"; };
+		9CA8251D1703E551004C805C /* MLShopOrderedMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLShopOrderedMenuViewController.h; sourceTree = "<group>"; };
+		9CA8251E1703E551004C805C /* MLShopOrderedMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLShopOrderedMenuViewController.m; sourceTree = "<group>"; };
+		9CA825201703EE13004C805C /* MLMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLMapViewController.h; sourceTree = "<group>"; };
+		9CA825211703EE13004C805C /* MLMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLMapViewController.m; sourceTree = "<group>"; };
+		9CA8252A17042652004C805C /* MLLanguageSelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLLanguageSelectViewController.h; sourceTree = "<group>"; };
+		9CA8252B17042653004C805C /* MLLanguageSelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLLanguageSelectViewController.m; sourceTree = "<group>"; };
+		9CA8252D170426F7004C805C /* MLPersonalizedSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLPersonalizedSettingViewController.h; sourceTree = "<group>"; };
+		9CA8252E170426F8004C805C /* MLPersonalizedSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLPersonalizedSettingViewController.m; sourceTree = "<group>"; };
+		9CA8253017042B0F004C805C /* MLSceneSelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLSceneSelectViewController.h; sourceTree = "<group>"; };
+		9CA8253117042B10004C805C /* MLSceneSelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLSceneSelectViewController.m; sourceTree = "<group>"; };
+		9CA8253317042D9F004C805C /* MLSentenceStudyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLSentenceStudyViewController.h; sourceTree = "<group>"; };
+		9CA8253417042DA0004C805C /* MLSentenceStudyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLSentenceStudyViewController.m; sourceTree = "<group>"; };
 		9CA944CD16F8457F00D26C99 /* Molearn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Molearn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CA944D016F8457F00D26C99 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9CA944D216F8457F00D26C99 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -226,8 +283,6 @@
 		9CA945BD16F866D500D26C99 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		9CA945BF16F86B5B00D26C99 /* MLSlpashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLSlpashViewController.h; sourceTree = "<group>"; };
 		9CA945C016F86B5B00D26C99 /* MLSlpashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLSlpashViewController.m; sourceTree = "<group>"; };
-		9CA945C216F86B9600D26C99 /* MLKeyWordsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLKeyWordsViewController.h; sourceTree = "<group>"; };
-		9CA945C316F86B9600D26C99 /* MLKeyWordsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLKeyWordsViewController.m; sourceTree = "<group>"; };
 		9CA945C516F86BE800D26C99 /* MLHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLHomeViewController.h; sourceTree = "<group>"; };
 		9CA945C616F86BE800D26C99 /* MLHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLHomeViewController.m; sourceTree = "<group>"; };
 		9CA945C816F86BF200D26C99 /* MLSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLSearchViewController.h; sourceTree = "<group>"; };
@@ -245,6 +300,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C92112816FFFCC7005DD890 /* AVFoundation.framework in Frameworks */,
+				9C92112616FFF395005DD890 /* MediaPlayer.framework in Frameworks */,
 				9CA945BE16F866D500D26C99 /* CoreData.framework in Frameworks */,
 				9CA9458B16F85F3100D26C99 /* MapKit.framework in Frameworks */,
 				9CA9458916F85F2600D26C99 /* QuartzCore.framework in Frameworks */,
@@ -257,6 +314,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9C92111516FAFBE1005DD890 /* Tab_icon */ = {
+			isa = PBXGroup;
+			children = (
+				9C92111616FAFBE1005DD890 /* about@2x.png */,
+				9C92111716FAFBE1005DD890 /* favorites@2x.png */,
+				9C92111816FAFBE1005DD890 /* home@2x.png */,
+				9C92111916FAFBE1005DD890 /* search@2x.png */,
+			);
+			path = Tab_icon;
+			sourceTree = "<group>";
+		};
+		9C92112116FFEF35005DD890 /* Audios */ = {
+			isa = PBXGroup;
+			children = (
+				9C921129170000AA005DD890 /* music.mp3 */,
+				9C92112216FFEF8B005DD890 /* MLAudioPlay.h */,
+				9C92112316FFEF8B005DD890 /* MLAudioPlay.m */,
+				9C92112B17005201005DD890 /* MLAudioDownder.h */,
+				9C92112C17005201005DD890 /* MLAudioDownder.m */,
+			);
+			name = Audios;
+			sourceTree = "<group>";
+		};
+		9CA8251017017B08004C805C /* OtherController */ = {
+			isa = PBXGroup;
+			children = (
+				9CA945BF16F86B5B00D26C99 /* MLSlpashViewController.h */,
+				9CA945C016F86B5B00D26C99 /* MLSlpashViewController.m */,
+				9CA8252D170426F7004C805C /* MLPersonalizedSettingViewController.h */,
+				9CA8252E170426F8004C805C /* MLPersonalizedSettingViewController.m */,
+				9CA8250A170179B7004C805C /* MLLoginViewController.h */,
+				9CA8250B170179B7004C805C /* MLLoginViewController.m */,
+				9CA8250D170179DE004C805C /* MLRegisterViewController.h */,
+				9CA8250E170179DE004C805C /* MLRegisterViewController.m */,
+				9CA825141703E2F4004C805C /* MLShopListViewController.h */,
+				9CA825151703E2F4004C805C /* MLShopListViewController.m */,
+				9CA825171703E320004C805C /* MLShopDetailViewController.h */,
+				9CA825181703E320004C805C /* MLShopDetailViewController.m */,
+				9CA825201703EE13004C805C /* MLMapViewController.h */,
+				9CA825211703EE13004C805C /* MLMapViewController.m */,
+				9CA8251A1703E51A004C805C /* MLShopMenuViewController.h */,
+				9CA8251B1703E51A004C805C /* MLShopMenuViewController.m */,
+				9CA8251D1703E551004C805C /* MLShopOrderedMenuViewController.h */,
+				9CA8251E1703E551004C805C /* MLShopOrderedMenuViewController.m */,
+				9CA8252A17042652004C805C /* MLLanguageSelectViewController.h */,
+				9CA8252B17042653004C805C /* MLLanguageSelectViewController.m */,
+				9CA8253017042B0F004C805C /* MLSceneSelectViewController.h */,
+				9CA8253117042B10004C805C /* MLSceneSelectViewController.m */,
+				9CA8253317042D9F004C805C /* MLSentenceStudyViewController.h */,
+				9CA8253417042DA0004C805C /* MLSentenceStudyViewController.m */,
+			);
+			name = OtherController;
+			sourceTree = "<group>";
+		};
 		9CA944C416F8457F00D26C99 = {
 			isa = PBXGroup;
 			children = (
@@ -281,6 +392,8 @@
 				9CA9458C16F8643500D26C99 /* AFNetworking-2012.9.14 */,
 				9CA945A216F8643500D26C99 /* JSONKit-2011.12.18 */,
 				9CA945A716F8643500D26C99 /* MBProgressHUD v0.5 */,
+				9C92112716FFFCC6005DD890 /* AVFoundation.framework */,
+				9C92112516FFF395005DD890 /* MediaPlayer.framework */,
 				9CA945BD16F866D500D26C99 /* CoreData.framework */,
 				9CA9458A16F85F3100D26C99 /* MapKit.framework */,
 				9CA9458816F85F2600D26C99 /* QuartzCore.framework */,
@@ -359,6 +472,7 @@
 		9CA944F116F8586900D26C99 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				9C92111E16FC273D005DD890 /* Model.xcdatamodeld */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -366,6 +480,8 @@
 		9CA944F216F8586900D26C99 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				9CA8251117018BB7004C805C /* MLHTTPClient.h */,
+				9CA8251217018BB7004C805C /* MLHTTPClient.m */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -382,6 +498,7 @@
 		9CA944F416F8586900D26C99 /* Util */ = {
 			isa = PBXGroup;
 			children = (
+				9C92112116FFEF35005DD890 /* Audios */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -389,6 +506,7 @@
 		9CA944F516F85A6900D26C99 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				9C92111516FAFBE1005DD890 /* Tab_icon */,
 				9CA944F616F85A6900D26C99 /* Background */,
 				9CA9450516F85A6900D26C99 /* Button */,
 				9CA9451016F85A6900D26C99 /* Icon */,
@@ -522,8 +640,8 @@
 		9CA9456B16F85DCA00D26C99 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				9CA8251017017B08004C805C /* OtherController */,
 				9CA945D416F86D9500D26C99 /* MainControllers */,
-				9CA945D516F86DAC00D26C99 /* SubControllers */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -589,10 +707,6 @@
 		9CA945D416F86D9500D26C99 /* MainControllers */ = {
 			isa = PBXGroup;
 			children = (
-				9CA945BF16F86B5B00D26C99 /* MLSlpashViewController.h */,
-				9CA945C016F86B5B00D26C99 /* MLSlpashViewController.m */,
-				9CA945C216F86B9600D26C99 /* MLKeyWordsViewController.h */,
-				9CA945C316F86B9600D26C99 /* MLKeyWordsViewController.m */,
 				9CA945D116F86C5400D26C99 /* MLTabViewController.h */,
 				9CA945D216F86C5400D26C99 /* MLTabViewController.m */,
 				9CA945C516F86BE800D26C99 /* MLHomeViewController.h */,
@@ -605,13 +719,6 @@
 				9CA945CF16F86C1700D26C99 /* MLSettingViewController.m */,
 			);
 			name = MainControllers;
-			sourceTree = "<group>";
-		};
-		9CA945D516F86DAC00D26C99 /* SubControllers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = SubControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -726,6 +833,11 @@
 				9CA9456A16F85A6900D26C99 /* Icon@2x.png in Resources */,
 				9CA945B416F8643500D26C99 /* CHANGELOG.md in Resources */,
 				9CA945B616F8643500D26C99 /* README.md in Resources */,
+				9C92111A16FAFBE1005DD890 /* about@2x.png in Resources */,
+				9C92111B16FAFBE1005DD890 /* favorites@2x.png in Resources */,
+				9C92111C16FAFBE1005DD890 /* home@2x.png in Resources */,
+				9C92111D16FAFBE1005DD890 /* search@2x.png in Resources */,
+				9C92112A170000AA005DD890 /* music.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -760,12 +872,26 @@
 				9CA945B516F8643500D26C99 /* JSONKit.m in Sources */,
 				9CA945B716F8643500D26C99 /* MBProgressHUD.m in Sources */,
 				9CA945C116F86B5B00D26C99 /* MLSlpashViewController.m in Sources */,
-				9CA945C416F86B9600D26C99 /* MLKeyWordsViewController.m in Sources */,
 				9CA945C716F86BE800D26C99 /* MLHomeViewController.m in Sources */,
 				9CA945CA16F86BF200D26C99 /* MLSearchViewController.m in Sources */,
 				9CA945CD16F86C0900D26C99 /* MLFavouritesViewController.m in Sources */,
 				9CA945D016F86C1700D26C99 /* MLSettingViewController.m in Sources */,
 				9CA945D316F86C5400D26C99 /* MLTabViewController.m in Sources */,
+				9C92112016FC273D005DD890 /* Model.xcdatamodeld in Sources */,
+				9C92112416FFEF8B005DD890 /* MLAudioPlay.m in Sources */,
+				9C92112D17005201005DD890 /* MLAudioDownder.m in Sources */,
+				9CA8250C170179B7004C805C /* MLLoginViewController.m in Sources */,
+				9CA8250F170179DE004C805C /* MLRegisterViewController.m in Sources */,
+				9CA8251317018BB7004C805C /* MLHTTPClient.m in Sources */,
+				9CA825161703E2F4004C805C /* MLShopListViewController.m in Sources */,
+				9CA825191703E320004C805C /* MLShopDetailViewController.m in Sources */,
+				9CA8251C1703E51A004C805C /* MLShopMenuViewController.m in Sources */,
+				9CA8251F1703E552004C805C /* MLShopOrderedMenuViewController.m in Sources */,
+				9CA825221703EE14004C805C /* MLMapViewController.m in Sources */,
+				9CA8252C17042654004C805C /* MLLanguageSelectViewController.m in Sources */,
+				9CA8252F170426F9004C805C /* MLPersonalizedSettingViewController.m in Sources */,
+				9CA8253217042B12004C805C /* MLSceneSelectViewController.m in Sources */,
+				9CA8253517042DA2004C805C /* MLSentenceStudyViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -843,6 +969,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Molearn/Molearn-Prefix.pch";
 				INFOPLIST_FILE = "Molearn/Molearn-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -854,6 +981,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Molearn/Molearn-Prefix.pch";
 				INFOPLIST_FILE = "Molearn/Molearn-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -878,8 +1006,22 @@
 				9CA944EC16F8457F00D26C99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9C92111E16FC273D005DD890 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9C92111F16FC273D005DD890 /* Model.xcdatamodel */,
+			);
+			currentVersion = 9C92111F16FC273D005DD890 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 9CA944C516F8457F00D26C99 /* Project object */;
 }

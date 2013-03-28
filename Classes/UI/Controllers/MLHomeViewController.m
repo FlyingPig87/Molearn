@@ -7,6 +7,8 @@
 //
 
 #import "MLHomeViewController.h"
+#import "UINavigationItemAdditions.h"
+#import "MLAudioPlay.h"
 
 @interface MLHomeViewController ()
 
@@ -18,7 +20,7 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        // Custom initialization
+        self.navigationItem.titleView = [UINavigationItem titleViewForTitle:@"MoLearn"];
     }
     return self;
 }
@@ -26,13 +28,22 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    [btn addTarget:self action:@selector(playsounds) forControlEvents:UIControlEventTouchUpInside];
+    [btn setFrame:CGRectMake(100, 50, 40, 20)];
+    [btn setTitle:@"播放" forState:UIControlStateNormal];
+    [self.view addSubview:btn];
+}
+
+- (void)playsounds {
+    NSData *data = [NSData dataWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"music" ofType:@"mp3"]];
+    [[MLAudioPlay defaultAudioPlay] playWithData:data];
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    
 }
 
 @end
