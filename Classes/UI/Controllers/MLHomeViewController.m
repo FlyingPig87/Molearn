@@ -9,6 +9,7 @@
 #import "MLHomeViewController.h"
 #import "UINavigationItemAdditions.h"
 #import "MLAudioPlay.h"
+#import "MLFileManage.h"
 
 @interface MLHomeViewController ()
 
@@ -20,7 +21,7 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        self.navigationItem.titleView = [UINavigationItem titleViewForTitle:@"MoLearn"];
+//        self.navigationItem.titleView = [UINavigationItem titleViewForTitle:@"MoLearn"];
     }
     return self;
 }
@@ -36,8 +37,9 @@
 }
 
 - (void)playsounds {
-    NSData *data = [NSData dataWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"music" ofType:@"mp3"]];
-    [[MLAudioPlay defaultAudioPlay] playWithData:data];
+    NSString *urlstring = [[NSBundle mainBundle] pathForResource:@"music" ofType:@"mp3"];
+    [[MLAudioPlay defaultAudioPlay] play];
+//    [[MLFileManage sharedInstance] start];
 }
 
 - (void)didReceiveMemoryWarning

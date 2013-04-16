@@ -10,4 +10,6 @@
 
 @interface MLMapViewController : UIViewController
 
+- (id)initWithPois:(NSArray *)pois;
+
 @end

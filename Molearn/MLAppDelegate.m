@@ -10,6 +10,8 @@
 #import "MLTabViewController.h"
 #import <AVFoundation/AVFoundation.h>
 
+#import "MLMapViewController.h"
+
 @implementation MLAppDelegate
 
 - (void)dealloc
@@ -19,13 +21,7 @@
 }
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{
-    
-    [[UIApplication sharedApplication] beginReceivingRemoteControlEvents];
-    [application beginBackgroundTaskWithExpirationHandler:^{
-
-    }];
-    
+{    
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     MLTabViewController *tab = [[[MLTabViewController alloc] init] autorelease];
     self.window.backgroundColor = [UIColor whiteColor];

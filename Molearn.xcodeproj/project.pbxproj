@@ -29,6 +29,10 @@
 		9CA8252F170426F9004C805C /* MLPersonalizedSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA8252E170426F8004C805C /* MLPersonalizedSettingViewController.m */; };
 		9CA8253217042B12004C805C /* MLSceneSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA8253117042B10004C805C /* MLSceneSelectViewController.m */; };
 		9CA8253517042DA2004C805C /* MLSentenceStudyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA8253417042DA0004C805C /* MLSentenceStudyViewController.m */; };
+		9CA8253817043FA5004C805C /* MLLocationManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA8253717043FA5004C805C /* MLLocationManage.m */; };
+		9CA8253A170440D8004C805C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CA82539170440D8004C805C /* CoreLocation.framework */; };
+		9CA8253B17044209004C805C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CA9458A16F85F3100D26C99 /* MapKit.framework */; };
+		9CA8253F170977D8004C805C /* MLAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA8253E170977D8004C805C /* MLAnnotation.m */; };
 		9CA944D116F8457F00D26C99 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CA944D016F8457F00D26C99 /* UIKit.framework */; };
 		9CA944D316F8457F00D26C99 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CA944D216F8457F00D26C99 /* Foundation.framework */; };
 		9CA944D516F8457F00D26C99 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CA944D416F8457F00D26C99 /* CoreGraphics.framework */; };
@@ -102,7 +106,6 @@
 		9CA9458616F85DF200D26C99 /* UINavigationControllerAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA9457C16F85DF200D26C99 /* UINavigationControllerAdditions.m */; };
 		9CA9458716F85DF200D26C99 /* UINavigationItemAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA9457E16F85DF200D26C99 /* UINavigationItemAdditions.m */; };
 		9CA9458916F85F2600D26C99 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CA9458816F85F2600D26C99 /* QuartzCore.framework */; };
-		9CA9458B16F85F3100D26C99 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CA9458A16F85F3100D26C99 /* MapKit.framework */; };
 		9CA945AA16F8643500D26C99 /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA9458E16F8643500D26C99 /* AFHTTPClient.m */; };
 		9CA945AB16F8643500D26C99 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA9459016F8643500D26C99 /* AFHTTPRequestOperation.m */; };
 		9CA945AC16F8643500D26C99 /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA9459216F8643500D26C99 /* AFImageRequestOperation.m */; };
@@ -124,6 +127,8 @@
 		9CA945CD16F86C0900D26C99 /* MLFavouritesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA945CC16F86C0900D26C99 /* MLFavouritesViewController.m */; };
 		9CA945D016F86C1700D26C99 /* MLSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA945CF16F86C1700D26C99 /* MLSettingViewController.m */; };
 		9CA945D316F86C5400D26C99 /* MLTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA945D216F86C5400D26C99 /* MLTabViewController.m */; };
+		9CC44531170AB35600616859 /* MLPinAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC44530170AB35600616859 /* MLPinAnnotationView.m */; };
+		9CC44535170AE25100616859 /* MLFileManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC44534170AE25100616859 /* MLFileManage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -163,6 +168,11 @@
 		9CA8253117042B10004C805C /* MLSceneSelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLSceneSelectViewController.m; sourceTree = "<group>"; };
 		9CA8253317042D9F004C805C /* MLSentenceStudyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLSentenceStudyViewController.h; sourceTree = "<group>"; };
 		9CA8253417042DA0004C805C /* MLSentenceStudyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLSentenceStudyViewController.m; sourceTree = "<group>"; };
+		9CA8253617043FA5004C805C /* MLLocationManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLLocationManage.h; sourceTree = "<group>"; };
+		9CA8253717043FA5004C805C /* MLLocationManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLLocationManage.m; sourceTree = "<group>"; };
+		9CA82539170440D8004C805C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		9CA8253D170977D8004C805C /* MLAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MLAnnotation.h; path = Map/MLAnnotation.h; sourceTree = "<group>"; };
+		9CA8253E170977D8004C805C /* MLAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MLAnnotation.m; path = Map/MLAnnotation.m; sourceTree = "<group>"; };
 		9CA944CD16F8457F00D26C99 /* Molearn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Molearn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CA944D016F8457F00D26C99 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9CA944D216F8457F00D26C99 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -293,6 +303,10 @@
 		9CA945CF16F86C1700D26C99 /* MLSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLSettingViewController.m; sourceTree = "<group>"; };
 		9CA945D116F86C5400D26C99 /* MLTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLTabViewController.h; sourceTree = "<group>"; };
 		9CA945D216F86C5400D26C99 /* MLTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLTabViewController.m; sourceTree = "<group>"; };
+		9CC4452F170AB35600616859 /* MLPinAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MLPinAnnotationView.h; path = Map/MLPinAnnotationView.h; sourceTree = "<group>"; };
+		9CC44530170AB35600616859 /* MLPinAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MLPinAnnotationView.m; path = Map/MLPinAnnotationView.m; sourceTree = "<group>"; };
+		9CC44533170AE25100616859 /* MLFileManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLFileManage.h; sourceTree = "<group>"; };
+		9CC44534170AE25100616859 /* MLFileManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLFileManage.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -300,10 +314,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CA8253B17044209004C805C /* MapKit.framework in Frameworks */,
+				9CA8253A170440D8004C805C /* CoreLocation.framework in Frameworks */,
 				9C92112816FFFCC7005DD890 /* AVFoundation.framework in Frameworks */,
 				9C92112616FFF395005DD890 /* MediaPlayer.framework in Frameworks */,
 				9CA945BE16F866D500D26C99 /* CoreData.framework in Frameworks */,
-				9CA9458B16F85F3100D26C99 /* MapKit.framework in Frameworks */,
 				9CA9458916F85F2600D26C99 /* QuartzCore.framework in Frameworks */,
 				9CA944D116F8457F00D26C99 /* UIKit.framework in Frameworks */,
 				9CA944D316F8457F00D26C99 /* Foundation.framework in Frameworks */,
@@ -350,8 +365,8 @@
 				9CA8250E170179DE004C805C /* MLRegisterViewController.m */,
 				9CA825141703E2F4004C805C /* MLShopListViewController.h */,
 				9CA825151703E2F4004C805C /* MLShopListViewController.m */,
-				9CA825171703E320004C805C /* MLShopDetailViewController.h */,
 				9CA825181703E320004C805C /* MLShopDetailViewController.m */,
+				9CA825171703E320004C805C /* MLShopDetailViewController.h */,
 				9CA825201703EE13004C805C /* MLMapViewController.h */,
 				9CA825211703EE13004C805C /* MLMapViewController.m */,
 				9CA8251A1703E51A004C805C /* MLShopMenuViewController.h */,
@@ -368,9 +383,21 @@
 			name = OtherController;
 			sourceTree = "<group>";
 		};
+		9CA8253C170977A8004C805C /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				9CA8253617043FA5004C805C /* MLLocationManage.h */,
+				9CA8253717043FA5004C805C /* MLLocationManage.m */,
+				9CA8253D170977D8004C805C /* MLAnnotation.h */,
+				9CA8253E170977D8004C805C /* MLAnnotation.m */,
+			);
+			name = Map;
+			sourceTree = "<group>";
+		};
 		9CA944C416F8457F00D26C99 = {
 			isa = PBXGroup;
 			children = (
+				9CA82539170440D8004C805C /* CoreLocation.framework */,
 				9CA944EF16F8586900D26C99 /* Classes */,
 				9CA944D616F8457F00D26C99 /* Molearn */,
 				9CA944CF16F8457F00D26C99 /* Frameworks */,
@@ -498,6 +525,9 @@
 		9CA944F416F8586900D26C99 /* Util */ = {
 			isa = PBXGroup;
 			children = (
+				9CC44533170AE25100616859 /* MLFileManage.h */,
+				9CC44534170AE25100616859 /* MLFileManage.m */,
+				9CA8253C170977A8004C805C /* Map */,
 				9C92112116FFEF35005DD890 /* Audios */,
 			);
 			path = Util;
@@ -649,6 +679,7 @@
 		9CA9456C16F85DCA00D26C99 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				9CC44532170AB36200616859 /* Map */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -719,6 +750,15 @@
 				9CA945CF16F86C1700D26C99 /* MLSettingViewController.m */,
 			);
 			name = MainControllers;
+			sourceTree = "<group>";
+		};
+		9CC44532170AB36200616859 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				9CC4452F170AB35600616859 /* MLPinAnnotationView.h */,
+				9CC44530170AB35600616859 /* MLPinAnnotationView.m */,
+			);
+			name = Map;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -892,6 +932,10 @@
 				9CA8252F170426F9004C805C /* MLPersonalizedSettingViewController.m in Sources */,
 				9CA8253217042B12004C805C /* MLSceneSelectViewController.m in Sources */,
 				9CA8253517042DA2004C805C /* MLSentenceStudyViewController.m in Sources */,
+				9CA8253817043FA5004C805C /* MLLocationManage.m in Sources */,
+				9CA8253F170977D8004C805C /* MLAnnotation.m in Sources */,
+				9CC44531170AB35600616859 /* MLPinAnnotationView.m in Sources */,
+				9CC44535170AE25100616859 /* MLFileManage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

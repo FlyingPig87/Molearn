@@ -13,9 +13,10 @@
 + (MLAudioPlay *)defaultAudioPlay;
 
 @property (nonatomic, retain) NSData *musicData;
+@property (nonatomic, retain) NSURL *url;
 
 - (void)play;
 
-- (void)playWithData:(NSData *)data;
+- (void)playWithData:(NSURL *)url;
 
 @end
