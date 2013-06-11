@@ -10,4 +10,8 @@
 
 @interface MLAudioDownder : NSObject
 
++ (MLAudioDownder *)sharedInstance;
+
+
+
 @end

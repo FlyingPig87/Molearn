@@ -14,7 +14,6 @@
 		9C92112016FC273D005DD890 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9C92111E16FC273D005DD890 /* Model.xcdatamodeld */; };
 		9C92112416FFEF8B005DD890 /* MLAudioPlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C92112316FFEF8B005DD890 /* MLAudioPlay.m */; };
 		9C92112616FFF395005DD890 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C92112516FFF395005DD890 /* MediaPlayer.framework */; };
-		9C92112816FFFCC7005DD890 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C92112716FFFCC6005DD890 /* AVFoundation.framework */; };
 		9C92112A170000AA005DD890 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9C921129170000AA005DD890 /* music.mp3 */; };
 		9C92112D17005201005DD890 /* MLAudioDownder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C92112C17005201005DD890 /* MLAudioDownder.m */; };
 		9CA8250C170179B7004C805C /* MLLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA8250B170179B7004C805C /* MLLoginViewController.m */; };
@@ -127,6 +126,7 @@
 		9CA945CD16F86C0900D26C99 /* MLFavouritesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA945CC16F86C0900D26C99 /* MLFavouritesViewController.m */; };
 		9CA945D016F86C1700D26C99 /* MLSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA945CF16F86C1700D26C99 /* MLSettingViewController.m */; };
 		9CA945D316F86C5400D26C99 /* MLTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA945D216F86C5400D26C99 /* MLTabViewController.m */; };
+		9CB6346A171D570E0077FCE0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CB63469171D570E0077FCE0 /* AVFoundation.framework */; };
 		9CC44531170AB35600616859 /* MLPinAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC44530170AB35600616859 /* MLPinAnnotationView.m */; };
 		9CC44535170AE25100616859 /* MLFileManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC44534170AE25100616859 /* MLFileManage.m */; };
 /* End PBXBuildFile section */
@@ -140,7 +140,6 @@
 		9C92112216FFEF8B005DD890 /* MLAudioPlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MLAudioPlay.h; path = Audios/MLAudioPlay.h; sourceTree = "<group>"; };
 		9C92112316FFEF8B005DD890 /* MLAudioPlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MLAudioPlay.m; path = Audios/MLAudioPlay.m; sourceTree = "<group>"; };
 		9C92112516FFF395005DD890 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
-		9C92112716FFFCC6005DD890 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		9C921129170000AA005DD890 /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = music.mp3; path = Molearn/music.mp3; sourceTree = SOURCE_ROOT; };
 		9C92112B17005201005DD890 /* MLAudioDownder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MLAudioDownder.h; path = Audios/MLAudioDownder.h; sourceTree = "<group>"; };
 		9C92112C17005201005DD890 /* MLAudioDownder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MLAudioDownder.m; path = Audios/MLAudioDownder.m; sourceTree = "<group>"; };
@@ -303,6 +302,7 @@
 		9CA945CF16F86C1700D26C99 /* MLSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLSettingViewController.m; sourceTree = "<group>"; };
 		9CA945D116F86C5400D26C99 /* MLTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLTabViewController.h; sourceTree = "<group>"; };
 		9CA945D216F86C5400D26C99 /* MLTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLTabViewController.m; sourceTree = "<group>"; };
+		9CB63469171D570E0077FCE0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		9CC4452F170AB35600616859 /* MLPinAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MLPinAnnotationView.h; path = Map/MLPinAnnotationView.h; sourceTree = "<group>"; };
 		9CC44530170AB35600616859 /* MLPinAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MLPinAnnotationView.m; path = Map/MLPinAnnotationView.m; sourceTree = "<group>"; };
 		9CC44533170AE25100616859 /* MLFileManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLFileManage.h; sourceTree = "<group>"; };
@@ -314,9 +314,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CB6346A171D570E0077FCE0 /* AVFoundation.framework in Frameworks */,
 				9CA8253B17044209004C805C /* MapKit.framework in Frameworks */,
 				9CA8253A170440D8004C805C /* CoreLocation.framework in Frameworks */,
-				9C92112816FFFCC7005DD890 /* AVFoundation.framework in Frameworks */,
 				9C92112616FFF395005DD890 /* MediaPlayer.framework in Frameworks */,
 				9CA945BE16F866D500D26C99 /* CoreData.framework in Frameworks */,
 				9CA9458916F85F2600D26C99 /* QuartzCore.framework in Frameworks */,
@@ -397,6 +397,7 @@
 		9CA944C416F8457F00D26C99 = {
 			isa = PBXGroup;
 			children = (
+				9CB63469171D570E0077FCE0 /* AVFoundation.framework */,
 				9CA82539170440D8004C805C /* CoreLocation.framework */,
 				9CA944EF16F8586900D26C99 /* Classes */,
 				9CA944D616F8457F00D26C99 /* Molearn */,
@@ -419,7 +420,6 @@
 				9CA9458C16F8643500D26C99 /* AFNetworking-2012.9.14 */,
 				9CA945A216F8643500D26C99 /* JSONKit-2011.12.18 */,
 				9CA945A716F8643500D26C99 /* MBProgressHUD v0.5 */,
-				9C92112716FFFCC6005DD890 /* AVFoundation.framework */,
 				9C92112516FFF395005DD890 /* MediaPlayer.framework */,
 				9CA945BD16F866D500D26C99 /* CoreData.framework */,
 				9CA9458A16F85F3100D26C99 /* MapKit.framework */,

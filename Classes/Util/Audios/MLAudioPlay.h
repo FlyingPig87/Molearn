@@ -15,7 +15,7 @@
 @property (nonatomic, retain) NSData *musicData;
 @property (nonatomic, retain) NSURL *url;
 
-- (void)play;
+- (void)startplay;
 
 - (void)playWithData:(NSURL *)url;
 

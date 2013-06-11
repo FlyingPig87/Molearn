@@ -9,7 +9,7 @@
 #import "MLAudioPlay.h"
 #import <AVFoundation/AVFoundation.h>
 
-@interface MLAudioPlay()
+@interface MLAudioPlay()<AVAudioPlayerDelegate>
 
 @property (nonatomic, retain) AVAudioPlayer *player;
 
@@ -22,36 +22,25 @@
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         __audioPlay = [[MLAudioPlay alloc] init];
-        __audioPlay.url = [[[NSURL alloc]init]autorelease];
-        __audioPlay.musicData = [NSData data];
         AVAudioSession *session = [AVAudioSession sharedInstance];
-        NSError *error = nil;
-//        if (![session setActive:YES error:&error]) {
-//            NSLog(@"active:%@",error);
-//        };
-//        if (![session setCategory:AVAudioSessionCategoryPlayback error:&error]) {
-//            NSLog(@"category:%@",error);
-//        };
+        [session setCategory:AVAudioSessionCategoryPlayback error:nil];
+        [session setActive:YES error:nil];
     });
     return __audioPlay;
 }
 
-- (void)play {
+- (void)startplay {
     NSError *error = nil;
     
     NSString *url = [self folderPath];
     NSArray *arr = [[NSFileManager defaultManager] contentsOfDirectoryAtURL:[[NSURL alloc] initFileURLWithPath:url] includingPropertiesForKeys:nil options:0 error:&error];
     NSURL *file = [arr objectAtIndex:1];
-    self.player = [[[AVAudioPlayer alloc] initWithContentsOfURL:file error:&error] autorelease];
-    if (error) {
-        NSLog(@"error:%@",error);
-        return;
-    }
-    _player.volume = 1;
-    if ([_player prepareToPlay]) {
-        [_player play];
-    }
+    self.player = [[AVAudioPlayer alloc] initWithContentsOfURL:file error:nil];
+    [_player play];
 }
+
+
+
 
 - (void)playWithData:(NSURL *)url {
     self.url = url;

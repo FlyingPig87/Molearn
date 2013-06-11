@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="2057" systemVersion="12C60" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
     <entity name="Food" syncable="YES">
+        <attribute name="isordered" optional="YES" attributeType="Float" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="price" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
         <relationship name="shop" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Shop" inverseName="shopmenu" inverseEntity="Shop" syncable="YES"/>
     </entity>
     <entity name="Shop" syncable="YES">
@@ -11,6 +14,7 @@
         <attribute name="lon" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="phone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <relationship name="imageurls" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="ShopImage" inverseName="shop" inverseEntity="ShopImage" syncable="YES"/>
         <relationship name="shopmenu" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Food" inverseName="shop" inverseEntity="Food" syncable="YES"/>
     </entity>
@@ -19,8 +23,8 @@
         <relationship name="shop" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Shop" inverseName="imageurls" inverseEntity="Shop" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Food" positionX="1584" positionY="234" width="126" height="60"/>
-        <element name="Shop" positionX="1780" positionY="237" width="128" height="178"/>
+        <element name="Food" positionX="1584" positionY="234" width="126" height="105"/>
+        <element name="Shop" positionX="1780" positionY="237" width="128" height="195"/>
         <element name="ShopImage" positionX="1530" positionY="330" width="128" height="73"/>
     </elements>
 </model>

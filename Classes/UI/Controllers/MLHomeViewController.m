@@ -10,6 +10,8 @@
 #import "UINavigationItemAdditions.h"
 #import "MLAudioPlay.h"
 #import "MLFileManage.h"
+#import <AVFoundation/AVFoundation.h>
+#import "MLAudioDownder.h"
 
 @interface MLHomeViewController ()
 
@@ -29,17 +31,19 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    UIButton *btn = [UIButton buttonWithType:UIButtonTypeRoundedRect];
-    [btn addTarget:self action:@selector(playsounds) forControlEvents:UIControlEventTouchUpInside];
-    [btn setFrame:CGRectMake(100, 50, 40, 20)];
-    [btn setTitle:@"播放" forState:UIControlStateNormal];
-    [self.view addSubview:btn];
+    
+//    UIButton *btn = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+//    [btn addTarget:self action:@selector(playsounds) forControlEvents:UIControlEventTouchUpInside];
+//    [btn setFrame:CGRectMake(100, 50, 40, 20)];
+//    [btn setTitle:@"播放" forState:UIControlStateNormal];
+//    [self.view addSubview:btn];
 }
 
 - (void)playsounds {
-    NSString *urlstring = [[NSBundle mainBundle] pathForResource:@"music" ofType:@"mp3"];
-    [[MLAudioPlay defaultAudioPlay] play];
+
+//    NSString *urlstring = [[NSBundle mainBundle] pathForResource:@"music" ofType:@"mp3"];
 //    [[MLFileManage sharedInstance] start];
+    [[MLAudioPlay defaultAudioPlay] startplay];
 }
 
 - (void)didReceiveMemoryWarning
